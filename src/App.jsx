@@ -12,7 +12,7 @@ const deleteTask = (index) => {
 };
   return (
     <>
-    <Navbar/>
+   
     <Hero/>
     <Form setTask={setTask}task={task} />
    {task.map((item, index) => (
